@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="Google-Noto-Emoji-Travel-Places-42527-barber-pole.ico" type="image/x-icon">
+
+        <title>Contato - Barbearia Alura</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-home.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="novalogodecima.png" alt="logo da barbearia"></h1>
+            
+                <nav>
+                    <ul>
+                        <li><a href="Alura barber.html">Home</a></li>
+                        <li><a href="Produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+           <form>
+                <label for="nomesobrenome"> Nome e Sobrenome</label>
+                <input type="text" name="" id="nomesobrenome" class="input-padrao" required > 
+
+                <label for="email"> Email </label>
+                <input type="email" name="" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx" > 
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem" class="input-padrao" cols="30" rows="10" ></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato ?</legend>
+                    <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                   
+
+                    <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+                    
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked >WhatsApp</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual o horário prefere ser atendido ?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+    
+                        
+                    </tbody>
+               </table>
+
+                <label class="checkbox"> <input type="checkbox">Gostariade receber nossas novidades por e-mail? </label>
+
+                <input type="submit" value="Enviar Formulário" id="" class="enviar">
+           </form>
+
+           
+        </main>
+
+        <footer>
+            <img src="Logotipo barbearia clássico preto e brancos.png" alt="logotipo">
+            <p class="copy"> &copy; Copyright Barbearia Alaska 2019</p>
+        </footer>
+    </body>
+</html>
